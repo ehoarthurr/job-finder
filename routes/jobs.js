@@ -3,7 +3,7 @@ const router = express.Router();
 const Job = require("../models/Job");
 
 router.get("/test", (req, res) => {
-  console.log("deu certo");
+  res.send("deu certo");
 });
 
 // adicionar job via POST
