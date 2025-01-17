@@ -6,6 +6,10 @@ router.get("/test", (req, res) => {
   res.send("deu certo");
 });
 
+router.get("/add", (req, res) => {
+  res.render("add");
+});
+
 // adicionar job via POST
 router.post("/add", (req, res) => {
   let { title, description, salary, company, email, new_job } = req.body;
