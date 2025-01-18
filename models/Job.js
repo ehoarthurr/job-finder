@@ -14,9 +14,12 @@ const Job = db.define("job", {
   company: {
     type: Sequelize.STRING,
   },
+  email: {
+    type: Sequelize.STRING,
+  },
   new_job: {
     type: Sequelize.INTEGER,
   },
 });
 
-module.exports = Job; 
+module.exports = Job;
