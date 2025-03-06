@@ -1,1 +1,1 @@
-this project is part of the "javascript-studies"
+﻿this project is part of [javascript-studies](https://github.com/ehoarthurr/javascript-studies)
